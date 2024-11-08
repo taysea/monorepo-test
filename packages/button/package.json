@@ -1,8 +1,8 @@
 {
-  "name": "@taysea/button",
+  "name": "taysea-test-button",
   "version": "0.1.0",
-  "main": "dist/button.cjs.js",
-  "module": "dist/button.esm.js",
+  "main": "dist/taysea-test-button.cjs.js",
+  "module": "dist/taysea-test-button.esm.js",
   "dependencies": {
     "react": "^16.12.0"
   }

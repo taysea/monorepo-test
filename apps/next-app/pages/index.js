@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@taysea/button";
+import Button from "taysea-test-button";
 import { useLazyQuery, useQuery } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
 
@@ -45,7 +45,7 @@ function HomePage() {
   return (
     <div
       style={{
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
       <Preamble />
