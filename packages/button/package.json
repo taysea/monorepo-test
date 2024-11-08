@@ -1,6 +1,6 @@
 {
-  "name": "@monorepo-starter/button",
-  "version": "1.0.0",
+  "name": "@taysea/button",
+  "version": "0.1.0",
   "main": "dist/button.cjs.js",
   "module": "dist/button.esm.js",
   "dependencies": {

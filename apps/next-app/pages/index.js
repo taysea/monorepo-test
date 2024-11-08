@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@monorepo-starter/button";
+import Button from "@taysea/button";
 import { useLazyQuery, useQuery } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
 
