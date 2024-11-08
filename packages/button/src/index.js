@@ -1,6 +1,13 @@
 import React from "react";
 
-const Button = ({ onClick, onFocus, children, isSelected, ...rest }) => (
+const Button = ({
+  onClick,
+  onFocus,
+  onBlur,
+  children,
+  isSelected,
+  ...rest
+}) => (
   <button
     style={{
       border: 0,
@@ -12,6 +19,7 @@ const Button = ({ onClick, onFocus, children, isSelected, ...rest }) => (
     }}
     onClick={onClick}
     onFocus={onFocus}
+    onBlur={onBlur}
     {...rest}
   >
     {children}
