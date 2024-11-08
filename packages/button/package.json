@@ -1,6 +1,6 @@
 {
   "name": "taysea-test-button",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "dist/taysea-test-button.cjs.js",
   "module": "dist/taysea-test-button.esm.js",
   "dependencies": {
